@@ -15,7 +15,7 @@ int main() {
   printf("Digite a media: ");
   scanf("%f",&aluno.media);
 
-  printf("Os dados informados\n\nIdade: %d\nMedia: %.2f", aluno.idade, aluno.media );
+  printf("\tOs dados informados\n\nIdade: %d\nMedia: %.2f", aluno.idade, aluno.media );
 
 
   return 0;
