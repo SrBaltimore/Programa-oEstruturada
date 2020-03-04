@@ -20,13 +20,13 @@ int main() {
     printf("Digite a %d media: ",i+1);
     scanf("%f",&aluno[i].media);
   }
+  printf("A media dos dados informados\n");
+
   for(i=0;i<qtdaluno;i++){
-    temp += aluno[i].idade;
+    printf("\n%d°\n\nIdade: %d\nMedia: %.2f",i+1, aluno[i].idade, aluno[i].media );
   }
-  temp = temp / qtdaluno;
 
 
-  printf("A media dos dados informados\n\nMedia: %.2f", temp );
 
 
   }
