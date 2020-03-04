@@ -1,1 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+struct dadosAluno{
+  int idade;
+  float media;
+};
+
+int int main(int argc, char const *argv[]) {
+  struct dadosAluno aluno;
+
+  printf("Digite a idade: ");
+  scanf("%d",&aluno.idade);
+
+  printf("Digite a media: ");
+  scanf("%f",&aluno.media);
+
+  printf("Os dados informados\n\nIdade: %d\nMedia: %.2f", aluno.idade, aluno.media );
+
+
+  return 0;
+}
