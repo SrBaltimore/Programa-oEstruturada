@@ -6,7 +6,7 @@ struct dadosAluno{
   float media;
 };
 
-int int main() {
+int main() {
   struct dadosAluno aluno;
 
   printf("Digite a idade: ");
